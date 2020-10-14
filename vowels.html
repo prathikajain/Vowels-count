@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vowels count(Prathika jain -4su17cs064)</title>
+    </head>
+   <body>
+       <script>
+           var str=prompt("Enter the string","");
+           //alert(str)
+           str=str.toUpperCase();
+           for(i=0;i<str.length;i++){
+               var ch=str.charAt(i);
+               if(ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+               break;
+           }
+           if(i<str.length)
+           alert("the position of the left mostvowel is "+(i+1));
+           else
+           alert("no vowels found")
+           
+       </script>
+   </body> 
+</html>
